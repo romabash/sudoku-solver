@@ -1,9 +1,12 @@
 import numpy as np
+
 from tkinter import *
+import tkinter as tk
 from tkinter import ttk
+from tkinter import font
 
 #Create puzzle GUI layout
-root = Tk()
+root = tk.Tk()
 root.title("Sudoku Solver")
 
 mainframe = ttk.Frame(root, padding="15")
